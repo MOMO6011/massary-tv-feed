@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "title": "Build AI Apps with Genkit Go",
+    "channel": "Google for Developers",
+    "excerpt": "Learn to integrate AI into your Go applications seamlessly using Genkit Go. This video introduces Google's production-ready ...",
+    "date": "2026-01-08",
+    "link": "https://www.youtube.com/watch?v=zqCeeQteWGc",
+    "platform": "YouTube"
+  },
+  {
+    "title": "Poor explanations of a software developer&#39;s job",
+    "channel": "Google for Developers",
+    "excerpt": "I think we can all really relate to the “I attend meetings and occasionally code”. Subscribe to Google for Developers ...",
+    "date": "2026-01-08",
+    "link": "https://www.youtube.com/watch?v=NWeH5ghpKrw",
+    "platform": "YouTube"
+  }
+]
