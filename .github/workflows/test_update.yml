@@ -25,10 +25,10 @@ jobs:
         YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
       run: python youtube_api.py
 
-    - name: Commit & Push feed.json
+    - name: Commit & Push feed_1.json
       run: |
         git config --global user.name "github-actions"
         git config --global user.email "actions@github.com"
-        git add feed.json
+        git add feed_1.json
         git diff --cached --quiet || git commit -m "Update feed.json"
         git push
