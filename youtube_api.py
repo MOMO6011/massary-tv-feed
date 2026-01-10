@@ -1,6 +1,7 @@
 import json
 import os
 import requests
+import isodate
 
 API_KEY = os.environ.get("YOUTUBE_API_KEY")
 
@@ -31,7 +32,7 @@ CHANNEL_IDS = [
 ]
 
 FEED_FILE = "feed_1.json"
-MAX_VIDEOS = 50  # أقصى عدد فيديوهات
+MAX_VIDEOS = 50
 feed = []
 
 existing_links = set()
@@ -57,20 +58,31 @@ for channel_id in CHANNEL_IDS:
     data = requests.get(url).json()
     for item in data.get("items", []):
         video_id = item["id"]["videoId"]
-        link = f"https://www.youtube.com/watch?v={video_id}"
-        if link in existing_links:
+        video_url = f"https://www.youtube.com/watch?v={video_id}"
+
+        if video_url in existing_links:
             continue
+
+        # جلب مدة الفيديو عشان نتجنب Shorts
+        details_url = f"https://www.googleapis.com/youtube/v3/videos?part=contentDetails&id={video_id}&key={API_KEY}"
+        details = requests.get(details_url).json()
+        duration = details['items'][0]['contentDetails']['duration']
+        video_seconds = isodate.parse_duration(duration).total_seconds()
+        if video_seconds < 60:
+            continue  # تجاهل Shorts
+
+        # إضافة الفيديو للـ feed
         feed.append({
             "title": item["snippet"]["title"],
             "channel": item["snippet"]["channelTitle"],
             "excerpt": item["snippet"]["description"][:150],
             "date": item["snippet"]["publishedAt"],
-            "link": link,
+            "link": video_url,
             "thumbnail": item["snippet"]["thumbnails"]["medium"]["url"],
             "platform": "YouTube"
         })
 
-# ترتيب الأحدث أولًا
+# ترتيب الأحدث فوق
 feed = sorted(feed, key=lambda x: x["date"], reverse=True)
 
 # تحديد أقصى عدد فيديوهات
@@ -79,3 +91,5 @@ feed = feed[:MAX_VIDEOS]
 # حفظ الملف
 with open(FEED_FILE, "w", encoding="utf-8") as f:
     json.dump(feed, f, ensure_ascii=False, indent=2)
+
+print(f"تم تحديث feed_1.json بنجاح! إجمالي الفيديوهات: {len(feed)}")
