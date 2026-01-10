@@ -8,7 +8,8 @@ CHANNEL_IDS = [
     "UC_x5XG1OV2P6uZZ5FSM9Ttw"  # مثال - هنغيره بعدين
 ]
 
-FEED_FILE = "feed.json"
+FEED_FILE = "feed_1.json"
+
 
 try:
     with open(FEED_FILE, "r", encoding="utf-8") as f:
