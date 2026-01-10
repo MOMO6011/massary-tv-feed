@@ -3,9 +3,11 @@ import os
 import requests
 import isodate
 
+# المفتاح لازم يكون موجود في GitHub Secrets باسم YOUTUBE_API_KEY
 API_KEY = os.environ.get("YOUTUBE_API_KEY")
 
 CHANNEL_IDS = [
+    "UCEHvaZ336u7TIsUQ2c6SAeQ",  #DroosOnline
     "UCcZAb104e_K7yJc8e_hPyDQ",  # DroosOnline4u
     "UCSFHcQ6-5uayv5v7yLQFUYA",  # thedocwaleed
     "UCQqN3qgYbkfd0EkdhJmN5tQ",  # ElzeroWebSchool
@@ -63,7 +65,7 @@ for channel_id in CHANNEL_IDS:
         if video_url in existing_links:
             continue
 
-        # جلب مدة الفيديو عشان نتجنب Shorts
+        # جلب مدة الفيديو لتجاهل Shorts
         details_url = f"https://www.googleapis.com/youtube/v3/videos?part=contentDetails&id={video_id}&key={API_KEY}"
         details = requests.get(details_url).json()
         duration = details['items'][0]['contentDetails']['duration']
