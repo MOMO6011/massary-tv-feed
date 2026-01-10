@@ -51,7 +51,7 @@ for channel_id in CHANNEL_IDS:
         f"https://www.googleapis.com/youtube/v3/channels?part=contentDetails&id={channel_id}&key={API_KEY}"
     ).json()
 
-    uploads_playlist_id = channel_data["items"][0]["contentDetails"]["relatedPlaylists"]["uploads"]
+    items = channel_data.get("items") if not items:     print(f"⚠️ القناة {channel_id} لم ترجع أي بيانات، سيتم تخطيها.")     continue  uploads_playlist_id = items[0]["contentDetails"]["relatedPlaylists"]["uploads"]
 
     # جلب الفيديوهات مع contentDetails لتفادي request إضافي
     playlist_url = (
