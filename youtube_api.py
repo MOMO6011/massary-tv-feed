@@ -6,6 +6,7 @@ import isodate
 API_KEY = os.environ.get("YOUTUBE_API_KEY")
 
 CHANNEL_IDS = [
+    "UCxmEEGYXJkgJJO12nJhXl5g"   #Omar Abdelrahim
     "UCEHvaZ336u7TIsUQ2c6SAeQ",  # DroosOnline
     "UCcZAb104e_K7yJc8e_hPyDQ",  # DroosOnline4u
     "UCSFHcQ6-5uayv5v7yLQFUYA",  # thedocwaleed
