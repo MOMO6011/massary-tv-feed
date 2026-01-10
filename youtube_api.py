@@ -3,11 +3,10 @@ import os
 import requests
 import isodate
 
-# المفتاح لازم يكون موجود في GitHub Secrets باسم YOUTUBE_API_KEY
 API_KEY = os.environ.get("YOUTUBE_API_KEY")
 
 CHANNEL_IDS = [
-    "UCEHvaZ336u7TIsUQ2c6SAeQ",  #DroosOnline
+    "UCEHvaZ336u7TIsUQ2c6SAeQ",  # DroosOnline
     "UCcZAb104e_K7yJc8e_hPyDQ",  # DroosOnline4u
     "UCSFHcQ6-5uayv5v7yLQFUYA",  # thedocwaleed
     "UCSNkfKl4cU-55Nm-ovsvOHQ",  # ElzeroWebSchool
@@ -36,10 +35,9 @@ CHANNEL_IDS = [
 FEED_FILE = "feed_1.json"
 MAX_VIDEOS = 50
 feed = []
-
 existing_links = set()
 
-# قراءة بيانات سابقة لو موجودة
+# قراءة البيانات السابقة
 try:
     with open(FEED_FILE, "r", encoding="utf-8") as f:
         feed = json.load(f)
@@ -48,32 +46,36 @@ except:
     feed = []
 
 for channel_id in CHANNEL_IDS:
-    url = (
-        f"https://www.googleapis.com/youtube/v3/search"
-        f"?key={API_KEY}"
-        f"&channelId={channel_id}"
-        "&part=snippet"
-        "&order=date"
-        "&maxResults=5"
-        "&type=video"
+    # 1️⃣ الحصول على uploads playlist لكل قناة
+    channel_data = requests.get(
+        f"https://www.googleapis.com/youtube/v3/channels?part=contentDetails&id={channel_id}&key={API_KEY}"
+    ).json()
+
+    uploads_playlist_id = channel_data["items"][0]["contentDetails"]["relatedPlaylists"]["uploads"]
+
+    # 2️⃣ جلب الفيديوهات مع contentDetails لتفادي request إضافي
+    playlist_url = (
+        f"https://www.googleapis.com/youtube/v3/playlistItems"
+        f"?playlistId={uploads_playlist_id}"
+        f"&part=snippet,contentDetails"
+        f"&maxResults=50"
+        f"&key={API_KEY}"
     )
-    data = requests.get(url).json()
-    for item in data.get("items", []):
-        video_id = item["id"]["videoId"]
+    playlist_data = requests.get(playlist_url).json()
+
+    for item in playlist_data.get("items", []):
+        video_id = item["contentDetails"]["videoId"]
         video_url = f"https://www.youtube.com/watch?v={video_id}"
 
         if video_url in existing_links:
             continue
 
-        # جلب مدة الفيديو لتجاهل Shorts
-        details_url = f"https://www.googleapis.com/youtube/v3/videos?part=contentDetails&id={video_id}&key={API_KEY}"
-        details = requests.get(details_url).json()
-        duration = details['items'][0]['contentDetails']['duration']
+        # حساب مدة الفيديو لتجاهل Shorts
+        duration = item['contentDetails']['duration']
         video_seconds = isodate.parse_duration(duration).total_seconds()
         if video_seconds < 60:
-            continue  # تجاهل Shorts
+            continue
 
-        # إضافة الفيديو للـ feed
         feed.append({
             "title": item["snippet"]["title"],
             "channel": item["snippet"]["channelTitle"],
@@ -84,13 +86,11 @@ for channel_id in CHANNEL_IDS:
             "platform": "YouTube"
         })
 
-# ترتيب الأحدث فوق
+# ترتيب الأحدث فوق + أقصى عدد فيديوهات
 feed = sorted(feed, key=lambda x: x["date"], reverse=True)
-
-# تحديد أقصى عدد فيديوهات
 feed = feed[:MAX_VIDEOS]
 
-# حفظ الملف
+# حفظ JSON
 with open(FEED_FILE, "w", encoding="utf-8") as f:
     json.dump(feed, f, ensure_ascii=False, indent=2)
 
