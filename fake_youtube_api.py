@@ -1,7 +1,7 @@
 import json
 from datetime import datetime
 
-# قراءة البيانات القديمة (لو موجودة)
+# قراءة البيانات القديمة
 try:
     with open("feed.json", "r", encoding="utf-8") as f:
         feed = json.load(f)
