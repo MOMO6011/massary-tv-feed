@@ -1,10 +1,9 @@
 name: Update Massary TV Feed
 
-# Cron schedule: كل 6 ساعات
 on:
   schedule:
     - cron: "0 */6 * * *"  # كل 6 ساعات UTC
-  workflow_dispatch:  # تشغيل يدوي من GitHub Actions
+  workflow_dispatch:        # لتشغيل يدوي
 
 jobs:
   update_feed:
@@ -36,4 +35,4 @@ jobs:
           git add feed_1.json
           git commit -m "Update feed_1.json automatically"
           git push
-        continue-on-error: true  # لو مفيش تحديث جديد يتخطى الخطوة
+        continue-on-error: true
