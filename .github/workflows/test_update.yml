@@ -1,34 +1,39 @@
 name: Update Massary TV Feed
 
+# Cron schedule: كل 6 ساعات
 on:
-  workflow_dispatch:
   schedule:
-    - cron: '0 */6 * * *'   # كل 6 ساعات (مستقر)
+    - cron: "0 */6 * * *"  # كل 6 ساعات UTC
+  workflow_dispatch:  # تشغيل يدوي من GitHub Actions
 
 jobs:
-  build:
+  update_feed:
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.x'
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
 
-    - name: Install dependencies
-      run: pip install requests
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests isodate
 
-    - name: Run YouTube API Script
-      env:
-        YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-      run: python youtube_api.py
+      - name: Run YouTube feed script
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: |
+          python youtube_api.py
 
-    - name: Commit & Push feed
-      run: |
-        git config --global user.name "github-actions"
-        git config --global user.email "actions@github.com"
-        git add feed_1.json
-        git diff --cached --quiet || git commit -m "Update Massary TV feed"
-        git push
+      - name: Commit updated feed
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add feed_1.json
+          git commit -m "Update feed_1.json automatically"
+          git push
+        continue-on-error: true  # لو مفيش تحديث جديد يتخطى الخطوة
