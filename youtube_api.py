@@ -13,7 +13,7 @@ CHANNEL_IDS = [
     "UCQqN3qgYbkfd0EkdhJmN5tQ",  # ElzeroWebSchool
     "UCQqN3qgYbkfd0EkdhJmN5tQ",  # ElzeroTube
     "UCWg_cj4kueGU2jXJ7Klk5qg",  # Bahaa.Henish
-    "UCscz2NaWRYuaDrwKBJkkVLQ",  # GhareebElshaikh
+    "UCnGblT_CyMwswTIH9QmJ3YQ",  # GhareebElshaikh
     "UCdNo5yauE8IU-vS8_dO3qew",  # abouzaid
     "UCUdtq-Fvlw7_NjzduNTZsbg",  # Abdullah_yw
     "UChbuH4HULlesX_rzlozkT6Q",  # AliMuhammadAli
