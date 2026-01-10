@@ -10,7 +10,7 @@ CHANNEL_IDS = [
     "UCEHvaZ336u7TIsUQ2c6SAeQ",  #DroosOnline
     "UCcZAb104e_K7yJc8e_hPyDQ",  # DroosOnline4u
     "UCSFHcQ6-5uayv5v7yLQFUYA",  # thedocwaleed
-    "UCQqN3qgYbkfd0EkdhJmN5tQ",  # ElzeroWebSchool
+    "UCSNkfKl4cU-55Nm-ovsvOHQ",  # ElzeroWebSchool
     "UCQqN3qgYbkfd0EkdhJmN5tQ",  # ElzeroTube
     "UCWg_cj4kueGU2jXJ7Klk5qg",  # Bahaa.Henish
     "UCnGblT_CyMwswTIH9QmJ3YQ",  # GhareebElshaikh
@@ -18,7 +18,7 @@ CHANNEL_IDS = [
     "UCUdtq-Fvlw7_NjzduNTZsbg",  # Abdullah_yw
     "UChbuH4HULlesX_rzlozkT6Q",  # AliMuhammadAli
     "UCaUZb4SGMAFVOJMqXQM3V1w",  # a5drcom
-    "UCMZME066uGTeRUZcDQWaipA",  # WalidTaha
+    "UCIL3YfRG2k7V9EDC3jzy-kg",  # WalidTaha
     "UC_nOoE4cIapZENcimY3I0uQ",  # KonoozTube
     "UC5RkBPuSzbyudZI0UA1B_Vw",  # TaherART
     "UC8eFjAmIUnLKLnfJZFPz6QQ",  # Ghanayem
@@ -30,7 +30,7 @@ CHANNEL_IDS = [
     "UCQPalfEYxVLs8nEB4LutApQ",  # thmanyahPodcasts
     "UCxHBGJc2HfCZbv2MgJ6F2Sw",  # BidonWaraq
     "UC89xhPO7T5uRpPK9Jl7NJrA",  # aramtv
-    "UCfEjNgz1vYDYyury8q7PmYQ"   # MicsPodcas
+    "UC4DXKosClX-lZirpQsIOjnQ"   # MicsPodcas
 ]
 
 FEED_FILE = "feed_1.json"
