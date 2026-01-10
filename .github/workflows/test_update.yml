@@ -3,7 +3,7 @@ name: Update Massary TV Feed
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */6 * * *'   # كل 6 ساعات
+    - cron: '0 */6 * * *'   # كل 6 ساعات (مستقر)
 
 jobs:
   build:
@@ -25,10 +25,10 @@ jobs:
         YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
       run: python youtube_api.py
 
-    - name: Commit & Push feed_1.json
+    - name: Commit & Push feed
       run: |
         git config --global user.name "github-actions"
         git config --global user.email "actions@github.com"
         git add feed_1.json
-        git diff --cached --quiet || git commit -m "Update feed.json"
+        git diff --cached --quiet || git commit -m "Update Massary TV feed"
         git push
