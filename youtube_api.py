@@ -46,14 +46,14 @@ except:
     feed = []
 
 for channel_id in CHANNEL_IDS:
-    # 1️⃣ الحصول على uploads playlist لكل قناة
+    # الحصول على uploads playlist لكل قناة
     channel_data = requests.get(
         f"https://www.googleapis.com/youtube/v3/channels?part=contentDetails&id={channel_id}&key={API_KEY}"
     ).json()
 
     uploads_playlist_id = channel_data["items"][0]["contentDetails"]["relatedPlaylists"]["uploads"]
 
-    # 2️⃣ جلب الفيديوهات مع contentDetails لتفادي request إضافي
+    # جلب الفيديوهات مع contentDetails لتفادي request إضافي
     playlist_url = (
         f"https://www.googleapis.com/youtube/v3/playlistItems"
         f"?playlistId={uploads_playlist_id}"
@@ -70,12 +70,17 @@ for channel_id in CHANNEL_IDS:
         if video_url in existing_links:
             continue
 
-        # حساب مدة الفيديو لتجاهل Shorts
-        duration = item['contentDetails']['duration']
+        # ✅ حماية ضد KeyError و تجاهل Shorts
+        content = item.get('contentDetails', {})
+        duration = content.get('duration')
+        if not duration:
+            continue  # تجاهل الفيديوهات بدون مدة
+
         video_seconds = isodate.parse_duration(duration).total_seconds()
         if video_seconds < 60:
-            continue
+            continue  # تجاهل Shorts
 
+        # إضافة الفيديو للـ feed
         feed.append({
             "title": item["snippet"]["title"],
             "channel": item["snippet"]["channelTitle"],
