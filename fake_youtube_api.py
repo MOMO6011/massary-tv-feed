@@ -10,7 +10,7 @@ except:
 
 # إضافة فيديو جديد
 feed.append({
-    "title": "تجربة فيديو " + datetime.now().strftime("%H:%M:%S"),
+    "title": "AUTO TEST " + datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
     "channel": "Test Channel",
     "excerpt": "ملخص الفيديو التجريبي الجديد.",
     "date": datetime.now().strftime("%Y-%m-%d"),
