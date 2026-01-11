@@ -7,7 +7,8 @@ import time
 API_KEY = os.environ.get("YOUTUBE_API_KEY")
 
 CHANNEL_IDS = [
-    "UCpodP_GSOEC6Mq7VG81a9WA",  # استغراب
+    "UCX2jSQF5YPStYXpCo7wkecA"   # zoheer
+    "UCXG8PmcymTIgqp_ZS4PgGeQ",  # استغراب
     "UCxmEEGYXJkgJJO12nJhXl5g",  # Omar Abdelrahim
     "UCEHvaZ336u7TIsUQ2c6SAeQ",  # DroosOnline
     "UCcZAb104e_K7yJc8e_hPyDQ",  # DroosOnline4u
