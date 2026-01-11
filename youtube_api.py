@@ -2,11 +2,12 @@ import json
 import os
 import requests
 import isodate
+import time
 
 API_KEY = os.environ.get("YOUTUBE_API_KEY")
 
 CHANNEL_IDS = [
-    "UCxmEEGYXJkgJJO12nJhXl5g"   #Omar Abdelrahim
+    "UCxmEEGYXJkgJJO12nJhXl5g",  # Omar Abdelrahim
     "UCEHvaZ336u7TIsUQ2c6SAeQ",  # DroosOnline
     "UCcZAb104e_K7yJc8e_hPyDQ",  # DroosOnline4u
     "UCSFHcQ6-5uayv5v7yLQFUYA",  # thedocwaleed
@@ -30,7 +31,7 @@ CHANNEL_IDS = [
     "UCQPalfEYxVLs8nEB4LutApQ",  # thmanyahPodcasts
     "UCxHBGJc2HfCZbv2MgJ6F2Sw",  # BidonWaraq
     "UC89xhPO7T5uRpPK9Jl7NJrA",  # aramtv
-    "UC4DXKosClX-lZirpQsIOjnQ"   # MicsPodcas
+    "UC4DXKosClX-lZirpQsIOjnQ"   # MicsPodcast
 ]
 
 FEED_FILE = "feed_1.json"
@@ -38,31 +39,67 @@ MAX_VIDEOS = 50
 feed = []
 existing_links = set()
 
-# قراءة البيانات السابقة
+# تحميل الفيد القديم
 try:
     with open(FEED_FILE, "r", encoding="utf-8") as f:
         feed = json.load(f)
-        existing_links = {item.get("link") for item in feed if "link" in item}
+        existing_links = {item["link"] for item in feed if "link" in item}
 except:
     feed = []
 
 for channel_id in CHANNEL_IDS:
-    # الحصول على uploads playlist لكل قناة
+    print(f"🔍 معالجة القناة: {channel_id}")
+
     channel_data = requests.get(
-        f"https://www.googleapis.com/youtube/v3/channels?part=contentDetails&id={channel_id}&key={API_KEY}"
+        "https://www.googleapis.com/youtube/v3/channels",
+        params={
+            "part": "contentDetails",
+            "id": channel_id,
+            "key": API_KEY
+        }
     ).json()
 
-    items = channel_data.get("items") if not items:     print(f"⚠️ القناة {channel_id} لم ترجع أي بيانات، سيتم تخطيها.")     continue  uploads_playlist_id = items[0]["contentDetails"]["relatedPlaylists"]["uploads"]
+    items = channel_data.get("items")
 
-    # جلب الفيديوهات مع contentDetails لتفادي request إضافي
-    playlist_url = (
-        f"https://www.googleapis.com/youtube/v3/playlistItems"
-        f"?playlistId={uploads_playlist_id}"
-        f"&part=snippet,contentDetails"
-        f"&maxResults=50"
-        f"&key={API_KEY}"
-    )
-    playlist_data = requests.get(playlist_url).json()
+    if not items:
+        print(f"⚠️ القناة {channel_id} لم ترجع بيانات – تم التخطي")
+        continue
+
+    uploads_playlist_id = items[0]["contentDetails"]["relatedPlaylists"]["uploads"]
+
+    playlist_data = requests.get(
+        "https://www.googleapis.com/youtube/v3/playlistItems",
+        params={
+            "part": "snippet,contentDetails",
+            "playlistId": uploads_playlist_id,
+            "maxResults": 50,
+            "key": API_KEY
+        }
+    ).json()
+
+    video_ids = [
+        item["contentDetails"]["videoId"]
+        for item in playlist_data.get("items", [])
+    ]
+
+    if not video_ids:
+        continue
+
+    videos_data = requests.get(
+        "https://www.googleapis.com/youtube/v3/videos",
+        params={
+            "part": "contentDetails",
+            "id": ",".join(video_ids),
+            "key": API_KEY
+        }
+    ).json()
+
+    durations = {
+        v["id"]: isodate.parse_duration(
+            v["contentDetails"]["duration"]
+        ).total_seconds()
+        for v in videos_data.get("items", [])
+    }
 
     for item in playlist_data.get("items", []):
         video_id = item["contentDetails"]["videoId"]
@@ -71,17 +108,9 @@ for channel_id in CHANNEL_IDS:
         if video_url in existing_links:
             continue
 
-        # ✅ حماية ضد KeyError و تجاهل Shorts
-        content = item.get('contentDetails', {})
-        duration = content.get('duration')
-        if not duration:
-            continue  # تجاهل الفيديوهات بدون مدة
-
-        video_seconds = isodate.parse_duration(duration).total_seconds()
-        if video_seconds < 60:
+        if durations.get(video_id, 0) < 90:
             continue  # تجاهل Shorts
 
-        # إضافة الفيديو للـ feed
         feed.append({
             "title": item["snippet"]["title"],
             "channel": item["snippet"]["channelTitle"],
@@ -92,12 +121,11 @@ for channel_id in CHANNEL_IDS:
             "platform": "YouTube"
         })
 
-# ترتيب الأحدث فوق + أقصى عدد فيديوهات
-feed = sorted(feed, key=lambda x: x["date"], reverse=True)
-feed = feed[:MAX_VIDEOS]
+    time.sleep(0.2)
 
-# حفظ JSON
+feed = sorted(feed, key=lambda x: x["date"], reverse=True)[:MAX_VIDEOS]
+
 with open(FEED_FILE, "w", encoding="utf-8") as f:
     json.dump(feed, f, ensure_ascii=False, indent=2)
 
-print(f"تم تحديث feed_1.json بنجاح! إجمالي الفيديوهات: {len(feed)}")
+print(f"✅ تم تحديث feed_1.json | إجمالي الفيديوهات: {len(feed)}")
