@@ -1,5 +1,14 @@
 [
   {
+    "title": "Create Simple Blog With Strapi and Nextjs In One Video",
+    "channel": "Elzero Web School",
+    "excerpt": "Code: https://github.com/ElzeroWebSchool/Strapi_and_Nextjs_Simple_Blog",
+    "date": "2026-09-12T15:44:27Z",
+    "link": "https://www.youtube.com/watch?v=NI337ED9XMY",
+    "thumbnail": "https://i.ytimg.com/vi/NI337ED9XMY/mqdefault.jpg",
+    "platform": "YouTube"
+  },
+  {
     "title": "كيف تكشف الصداقة حقيقتنا؟ | بودكاست ممكن نتكلم",
     "channel": "Mics مايكس",
     "excerpt": "في أولى حلقات بودكاست ممكن نتكلم، نفتح ملف الصداقة بوصفها واحدة من العلاقات الحاضرة بقوة في حياتنا، والمعقّدة أكثر مما تبدو عليه ..\nمن العلاقات التي ت",
@@ -438,15 +447,6 @@
     "date": "2026-09-03T13:07:49Z",
     "link": "https://www.youtube.com/watch?v=bhwc0326GHg",
     "thumbnail": "https://i.ytimg.com/vi/bhwc0326GHg/mqdefault.jpg",
-    "platform": "YouTube"
-  },
-  {
-    "title": "القصيدة نظرة شاعرية للواقع | شمس مع سارة بقنه",
-    "channel": "Mics مايكس",
-    "excerpt": "في هذه الحلقة من بودكاست شمس نستضيف الشاعر عبداللطيف يوسف في حديث يتأمل الشعر من الداخل، لا بوصفه نصاً مكتوباً فقط، بل تجربة يعيشها الإنسان وهو يحاول ",
-    "date": "2026-09-02T17:32:27Z",
-    "link": "https://www.youtube.com/watch?v=JWPJ37IT5jI",
-    "thumbnail": "https://i.ytimg.com/vi/JWPJ37IT5jI/mqdefault.jpg",
     "platform": "YouTube"
   }
 ]
