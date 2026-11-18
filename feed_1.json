@@ -1,5 +1,68 @@
 [
   {
+    "title": "Learn Reactjs #10 - Separating Components into Files",
+    "channel": "Elzero Web School",
+    "excerpt": "Separating Components into Files\n\nLessons & Assignments: https://elzero.org/courses/reactjs\n\nText Course: https://elzero.org/text-courses/reactjs",
+    "date": "2026-11-18T21:00:10Z",
+    "link": "https://www.youtube.com/watch?v=KMBdcSgQ9og",
+    "thumbnail": "https://i.ytimg.com/vi/KMBdcSgQ9og/mqdefault.jpg",
+    "platform": "YouTube"
+  },
+  {
+    "title": "Learn Reactjs #09 - Start Using Components",
+    "channel": "Elzero Web School",
+    "excerpt": "Start Using Components\n\nLessons & Assignments: https://elzero.org/courses/reactjs\n\nText Course: https://elzero.org/text-courses/reactjs",
+    "date": "2026-11-18T19:00:29Z",
+    "link": "https://www.youtube.com/watch?v=QOOE1syC-7s",
+    "thumbnail": "https://i.ytimg.com/vi/QOOE1syC-7s/mqdefault.jpg",
+    "platform": "YouTube"
+  },
+  {
+    "title": "العودة لمعيار الذهب | بودكاست لو حسبناها",
+    "channel": "Mics مايكس",
+    "excerpt": "مع تغيّر أسعار الذهب وزيادة الإقبال عليه، يبرز سؤال: ليش نثق بالذهب أكثر من غيره، وكيف صار له كل هذا التأثير في اقتصاد العالم؟\n\nفي الحلقة الأولى من بو",
+    "date": "2026-11-18T18:07:09Z",
+    "link": "https://www.youtube.com/watch?v=HPp7TMRmSBc",
+    "thumbnail": "https://i.ytimg.com/vi/HPp7TMRmSBc/mqdefault.jpg",
+    "platform": "YouTube"
+  },
+  {
+    "title": "بودكاست | كيف تستعيد هدوءك الداخلي وتوقف التفكير الزائد؟ 🕊️",
+    "channel": "WAKE UP",
+    "excerpt": "ما عليك سوى الانضمام إلى عضوية هذه القناة للاستفادة من المزايا:\nhttps://www.youtube.com/channel/UC19LSQvi6ca8luKEWL0pdKw/join",
+    "date": "2026-11-18T17:51:03Z",
+    "link": "https://www.youtube.com/watch?v=UiuEiDCiKrY",
+    "thumbnail": "https://i.ytimg.com/vi/UiuEiDCiKrY/mqdefault.jpg",
+    "platform": "YouTube"
+  },
+  {
+    "title": "Learn Reactjs #08 - JavaScript Inside JSX",
+    "channel": "Elzero Web School",
+    "excerpt": "JavaScript Inside JSX\n\nLessons & Assignments: https://elzero.org/courses/reactjs\n\nText Course: https://elzero.org/text-courses/reactjs",
+    "date": "2026-11-18T17:00:37Z",
+    "link": "https://www.youtube.com/watch?v=X-uW8sMnBO8",
+    "thumbnail": "https://i.ytimg.com/vi/X-uW8sMnBO8/mqdefault.jpg",
+    "platform": "YouTube"
+  },
+  {
+    "title": "Learn Reactjs #07 - Introduction To JSX",
+    "channel": "Elzero Web School",
+    "excerpt": "Introduction To JSX\n\nLessons & Assignments: https://elzero.org/courses/reactjs\n\nText Course: https://elzero.org/text-courses/reactjs",
+    "date": "2026-11-18T14:13:30Z",
+    "link": "https://www.youtube.com/watch?v=97NdOeGCpfQ",
+    "thumbnail": "https://i.ytimg.com/vi/97NdOeGCpfQ/mqdefault.jpg",
+    "platform": "YouTube"
+  },
+  {
+    "title": "عملت فريق ذكاء اصطناعي",
+    "channel": "Bahaa Henish",
+    "excerpt": "",
+    "date": "2026-11-18T13:32:53Z",
+    "link": "https://www.youtube.com/watch?v=TkHZfhL3AsA",
+    "thumbnail": "https://i.ytimg.com/vi/TkHZfhL3AsA/mqdefault.jpg",
+    "platform": "YouTube"
+  },
+  {
     "title": "Learn Reactjs #06 - Understanding The Project Structure",
     "channel": "Elzero Web School",
     "excerpt": "Understanding The Project Structure\n\nLessons & Assignments: https://elzero.org/courses/reactjs\n\nText Course: https://elzero.org/text-courses/reactjs",
@@ -384,69 +447,6 @@
     "date": "2026-11-07T18:28:47Z",
     "link": "https://www.youtube.com/watch?v=uHv_3c3hPLw",
     "thumbnail": "https://i.ytimg.com/vi/uHv_3c3hPLw/mqdefault.jpg",
-    "platform": "YouTube"
-  },
-  {
-    "title": "كيف أصبحت لا أبالي بكل شيء؟ | فن الهدوء النفسي.",
-    "channel": "WAKE UP",
-    "excerpt": "ما عليك سوى الانضمام إلى عضوية هذه القناة للاستفادة من المزايا:\nhttps://www.youtube.com/channel/UC19LSQvi6ca8luKEWL0pdKw/join",
-    "date": "2026-11-07T18:24:18Z",
-    "link": "https://www.youtube.com/watch?v=pyb7WxL4Wao",
-    "thumbnail": "https://i.ytimg.com/vi/pyb7WxL4Wao/mqdefault.jpg",
-    "platform": "YouTube"
-  },
-  {
-    "title": "استثمار لا يخسر",
-    "channel": "Kareem Esmail",
-    "excerpt": "",
-    "date": "2026-11-07T15:44:21Z",
-    "link": "https://www.youtube.com/watch?v=92uDq13CVbw",
-    "thumbnail": "https://i.ytimg.com/vi/92uDq13CVbw/mqdefault.jpg",
-    "platform": "YouTube"
-  },
-  {
-    "title": "ما وراء كواليس محادثاتك مع ChatGPT",
-    "channel": "محمد غنايم",
-    "excerpt": "يسعدنا انضمامك، أيها المؤثر القادم بإذن الله\nابدأ رحلتك في صناعة المحتوى التوعوي\n\nhttps://forms.gle/eqyQFvMXudc5Dwr97\nhttps://forms.gle/eqyQFvMXudc5Dw",
-    "date": "2026-11-07T13:17:34Z",
-    "link": "https://www.youtube.com/watch?v=6gj3oTUs90g",
-    "thumbnail": "https://i.ytimg.com/vi/6gj3oTUs90g/mqdefault.jpg",
-    "platform": "YouTube"
-  },
-  {
-    "title": "ليش يحذّرونا دائمًا من الاختلاف؟ | بودكاست ممكن نتكلم",
-    "channel": "Mics مايكس",
-    "excerpt": "هل نختار ما نريده فعلًا أم ما يضمن تقبّل المجتمع لنا؟ وماذا نخسر حين نخاف من الخطأ أو نتنازل عن أنفسنا لإرضاء الآخرين؟\n\nفي هذه الحلقة من بودكاست «ممكن",
-    "date": "2026-11-07T13:01:33Z",
-    "link": "https://www.youtube.com/watch?v=98iXkSMbCu4",
-    "thumbnail": "https://i.ytimg.com/vi/98iXkSMbCu4/mqdefault.jpg",
-    "platform": "YouTube"
-  },
-  {
-    "title": "مش لازم تعرف كل حاجة يعني!!",
-    "channel": "Shorts - Clips دروس أونلاين",
-    "excerpt": "",
-    "date": "2026-11-06T18:00:24Z",
-    "link": "https://www.youtube.com/watch?v=f-YKNmxvixw",
-    "thumbnail": "https://i.ytimg.com/vi/f-YKNmxvixw/mqdefault.jpg",
-    "platform": "YouTube"
-  },
-  {
-    "title": "سَاعَةُ جَدِّي | هل الكون جاء صدفة؟ | طلائع المعرفة",
-    "channel": "TaherART عالم طاهر آرت",
-    "excerpt": "\"سَاعَةُ جَدِّي\"\nساعة الجد توقفت، وزياد يظن إن الكون جاء صدفة.. لكن النظام الدقيق ما يصنع نفسه، و«لَا شَيْءَ يَأْتِي مِنَ الْعَدَمِ».\n\nقال الله تعالى:",
-    "date": "2026-11-06T18:00:07Z",
-    "link": "https://www.youtube.com/watch?v=0sf7ovZ614U",
-    "thumbnail": "https://i.ytimg.com/vi/0sf7ovZ614U/mqdefault.jpg",
-    "platform": "YouTube"
-  },
-  {
-    "title": "الفيديو الوحيد الي هيحللك مشكله ال Listening في الانجليزي",
-    "channel": "Omar Abdelrahim",
-    "excerpt": "لتفاصيل كورس المحادثة مع gateway:\nhttps://www.facebook.com/gateway.english.community\n\nقناة التيليجرام:\nhttps://t.me/omarabdelrahimofficial\n\nلتفاصيل كو",
-    "date": "2026-11-06T17:30:30Z",
-    "link": "https://www.youtube.com/watch?v=GpmirdvVzMk",
-    "thumbnail": "https://i.ytimg.com/vi/GpmirdvVzMk/mqdefault.jpg",
     "platform": "YouTube"
   }
 ]
