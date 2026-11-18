@@ -1,5 +1,14 @@
 [
   {
+    "title": "Learn Reactjs #05 - Understanding And Managing Packages",
+    "channel": "Elzero Web School",
+    "excerpt": "Understanding And Managing Packages\n\nLessons & Assignments: https://elzero.org/courses/reactjs\n\nText Course: https://elzero.org/text-courses/reactjs",
+    "date": "2026-11-17T21:45:04Z",
+    "link": "https://www.youtube.com/watch?v=oLkthLKyjIs",
+    "thumbnail": "https://i.ytimg.com/vi/oLkthLKyjIs/mqdefault.jpg",
+    "platform": "YouTube"
+  },
+  {
     "title": "Learn Reactjs #04 - Creating Your First React App",
     "channel": "Elzero Web School",
     "excerpt": "Creating Your First React App\n\nLessons & Assignments: https://elzero.org/courses/reactjs\n\nText Course: https://elzero.org/text-courses/reactjs",
@@ -438,15 +447,6 @@
     "date": "2026-11-06T10:59:45Z",
     "link": "https://www.youtube.com/watch?v=usMQj9Iu4jU",
     "thumbnail": "https://i.ytimg.com/vi/usMQj9Iu4jU/mqdefault.jpg",
-    "platform": "YouTube"
-  },
-  {
-    "title": "إيه أكتر حاجة بتبسطكم😁؟",
-    "channel": "Shorts - Clips دروس أونلاين",
-    "excerpt": "",
-    "date": "2026-11-05T18:00:22Z",
-    "link": "https://www.youtube.com/watch?v=wEZDp5Gde7I",
-    "thumbnail": "https://i.ytimg.com/vi/wEZDp5Gde7I/mqdefault.jpg",
     "platform": "YouTube"
   }
 ]
