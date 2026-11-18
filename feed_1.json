@@ -1,5 +1,14 @@
 [
   {
+    "title": "Learn Reactjs #06 - Understanding The Project Structure",
+    "channel": "Elzero Web School",
+    "excerpt": "Understanding The Project Structure\n\nLessons & Assignments: https://elzero.org/courses/reactjs\n\nText Course: https://elzero.org/text-courses/reactjs",
+    "date": "2026-11-18T12:00:36Z",
+    "link": "https://www.youtube.com/watch?v=z-uPdD3w5h8",
+    "thumbnail": "https://i.ytimg.com/vi/z-uPdD3w5h8/mqdefault.jpg",
+    "platform": "YouTube"
+  },
+  {
     "title": "Learn Reactjs #05 - Understanding And Managing Packages",
     "channel": "Elzero Web School",
     "excerpt": "Understanding And Managing Packages\n\nLessons & Assignments: https://elzero.org/courses/reactjs\n\nText Course: https://elzero.org/text-courses/reactjs",
@@ -438,15 +447,6 @@
     "date": "2026-11-06T17:30:30Z",
     "link": "https://www.youtube.com/watch?v=GpmirdvVzMk",
     "thumbnail": "https://i.ytimg.com/vi/GpmirdvVzMk/mqdefault.jpg",
-    "platform": "YouTube"
-  },
-  {
-    "title": "جربت Grok Bot لمدة شهر، ودي الخلاصة!",
-    "channel": "غريب الشيخ || Ghareeb Elshaikh",
-    "excerpt": "✅✅ لو عاوز تمتلك موقع على الإنترنت أو ترفع موقعك تقدر دلوقت تبدأ مع أفضل شركة استضافة اتعاملت معاها وهي هوستنجر من اللينك ده وكمان تقدر تاخد خصم زيادة",
-    "date": "2026-11-06T10:59:45Z",
-    "link": "https://www.youtube.com/watch?v=usMQj9Iu4jU",
-    "thumbnail": "https://i.ytimg.com/vi/usMQj9Iu4jU/mqdefault.jpg",
     "platform": "YouTube"
   }
 ]
