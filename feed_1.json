@@ -1,5 +1,59 @@
 [
   {
+    "title": "Learn Reactjs #14 - Destructuring Object Props",
+    "channel": "Elzero Web School",
+    "excerpt": "Destructuring Object Props\n\nLessons & Assignments: https://elzero.org/courses/reactjs\n\nText Course: https://elzero.org/text-courses/reactjs",
+    "date": "2026-11-19T20:30:24Z",
+    "link": "https://www.youtube.com/watch?v=8UftQ10Unmk",
+    "thumbnail": "https://i.ytimg.com/vi/8UftQ10Unmk/mqdefault.jpg",
+    "platform": "YouTube"
+  },
+  {
+    "title": "السبب اللي خلاني أغير محتوايا!",
+    "channel": "Shorts - Clips دروس أونلاين",
+    "excerpt": "",
+    "date": "2026-11-19T18:00:16Z",
+    "link": "https://www.youtube.com/watch?v=1XN43L6-fRc",
+    "thumbnail": "https://i.ytimg.com/vi/1XN43L6-fRc/mqdefault.jpg",
+    "platform": "YouTube"
+  },
+  {
+    "title": "Learn Reactjs #13 - Create Design And Discussion",
+    "channel": "Elzero Web School",
+    "excerpt": "Create Design And Discussion\n\nLessons & Assignments: https://elzero.org/courses/reactjs\n\nText Course: https://elzero.org/text-courses/reactjs",
+    "date": "2026-11-19T18:00:02Z",
+    "link": "https://www.youtube.com/watch?v=VqOqcn7c8dQ",
+    "thumbnail": "https://i.ytimg.com/vi/VqOqcn7c8dQ/mqdefault.jpg",
+    "platform": "YouTube"
+  },
+  {
+    "title": "جربت أخطر وأجدد مودل ذكاء اصطناعي في العالم .. هل يستحق 30 ألف؟ | seedance 2.5 4K",
+    "channel": "Waleed - وليد",
+    "excerpt": "🔥لينك موقع هيجسفيلد وعرض البلاك فرايداي:\nhttps://higgsfield.ai/s/higgsfield-seedance-2-5-4k-yt-thedocwaleed-GxhUqc\n\nلينك المسابقه للإشتراك:\nhttps://hi",
+    "date": "2026-11-19T15:00:37Z",
+    "link": "https://www.youtube.com/watch?v=vc0kRl79wcM",
+    "thumbnail": "https://i.ytimg.com/vi/vc0kRl79wcM/mqdefault.jpg",
+    "platform": "YouTube"
+  },
+  {
+    "title": "Learn Reactjs #12 - Build A Page And Organize Components",
+    "channel": "Elzero Web School",
+    "excerpt": "Build A Page And Organize Components\n\nLessons & Assignments: https://elzero.org/courses/reactjs\n\nText Course: https://elzero.org/text-courses/reactjs",
+    "date": "2026-11-19T14:00:27Z",
+    "link": "https://www.youtube.com/watch?v=Z7sMsqo6pjw",
+    "thumbnail": "https://i.ytimg.com/vi/Z7sMsqo6pjw/mqdefault.jpg",
+    "platform": "YouTube"
+  },
+  {
+    "title": "أزمة شواطئ جدة",
+    "channel": "Mics مايكس",
+    "excerpt": "ليش الوصول للشواطئ في مدينة جدة الساحلية صعب؟ \n\nم. عبدالله الحربي، نائب الرئيس التنفيذي للهيئة السعودية للبحر للأحمر\nفي أحدث حلقات بودكاست مسيّان مع ع",
+    "date": "2026-11-19T12:47:28Z",
+    "link": "https://www.youtube.com/watch?v=zT243wKL0Yo",
+    "thumbnail": "https://i.ytimg.com/vi/zT243wKL0Yo/mqdefault.jpg",
+    "platform": "YouTube"
+  },
+  {
     "title": "Learn Reactjs #11 - Props Basics",
     "channel": "Elzero Web School",
     "excerpt": "Props Basics\n\nLessons & Assignments: https://elzero.org/courses/reactjs\n\nText Course: https://elzero.org/text-courses/reactjs",
@@ -393,60 +447,6 @@
     "date": "2026-11-10T15:50:16Z",
     "link": "https://www.youtube.com/watch?v=Rz5tnz67KEo",
     "thumbnail": "https://i.ytimg.com/vi/Rz5tnz67KEo/mqdefault.jpg",
-    "platform": "YouTube"
-  },
-  {
-    "title": "Fable 5.2النموذج الجديد لأنثروبك تستخدمه ف ايه؟",
-    "channel": "غريب الشيخ || Ghareeb Elshaikh",
-    "excerpt": "",
-    "date": "2026-11-10T11:01:59Z",
-    "link": "https://www.youtube.com/watch?v=1McJ8RKmYO8",
-    "thumbnail": "https://i.ytimg.com/vi/1McJ8RKmYO8/mqdefault.jpg",
-    "platform": "YouTube"
-  },
-  {
-    "title": "«استخدموهم ككاسحات بشرية!»",
-    "channel": "Mics مايكس",
-    "excerpt": "كيف يستغل الحوثيون المهاجرين الأفارقة العالقين في اليمن في معاركهم؟\n  \nالإعلامي والمراسل الحربي محمد العرب\nفي أحدث حلقات بودكاست مسيّان مع عبدالعزيز ا",
-    "date": "2026-11-10T10:58:34Z",
-    "link": "https://www.youtube.com/watch?v=fEWBazPJQ98",
-    "thumbnail": "https://i.ytimg.com/vi/fEWBazPJQ98/mqdefault.jpg",
-    "platform": "YouTube"
-  },
-  {
-    "title": "وش كنّا نقول عن الجرائم؟ | لعبة جناية",
-    "channel": "Mics مايكس",
-    "excerpt": "في هالحلقة من لعبة جناية، سولفوا لنا الكوميديانز عبادي حجاي وأسامة بازيد مع د.محمد البيز وعبدالعزيز الهديّان عن التصرفات المزعجة في السفر، واعترفوا لن",
-    "date": "2026-11-09T15:52:13Z",
-    "link": "https://www.youtube.com/watch?v=NCn7-4Mcq-I",
-    "thumbnail": "https://i.ytimg.com/vi/NCn7-4Mcq-I/mqdefault.jpg",
-    "platform": "YouTube"
-  },
-  {
-    "title": "ليش اختفت الألوان؟ | قهوة المغرب",
-    "channel": "Mics مايكس",
-    "excerpt": "هل لاحظت اختفاء الألوان من حياتنا؟ 🎨🏡",
-    "date": "2026-11-09T13:00:34Z",
-    "link": "https://www.youtube.com/watch?v=CM4cO1cVyZ8",
-    "thumbnail": "https://i.ytimg.com/vi/CM4cO1cVyZ8/mqdefault.jpg",
-    "platform": "YouTube"
-  },
-  {
-    "title": "أنا عندي ADHD",
-    "channel": "Shorts - Clips دروس أونلاين",
-    "excerpt": "",
-    "date": "2026-11-08T18:00:07Z",
-    "link": "https://www.youtube.com/watch?v=FNcDpgUUgFA",
-    "thumbnail": "https://i.ytimg.com/vi/FNcDpgUUgFA/mqdefault.jpg",
-    "platform": "YouTube"
-  },
-  {
-    "title": "اليوم الذي مات فيه كُليب… وُلد الزير سالم",
-    "channel": "WAKE UP",
-    "excerpt": "الزير سالم | قصة ولادة أعظم منتقم – الجزء الأول\n\nمن هنا تبدأ الحكاية… حكاية الفارس الذي تحوّل من شاعرٍ عاش للحياة إلى رجلٍ أشعلت الخيانة قلبه بنار الا",
-    "date": "2026-11-08T17:50:02Z",
-    "link": "https://www.youtube.com/watch?v=gZsXJi-DXtE",
-    "thumbnail": "https://i.ytimg.com/vi/gZsXJi-DXtE/mqdefault.jpg",
     "platform": "YouTube"
   }
 ]
