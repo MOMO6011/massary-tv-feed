@@ -1,5 +1,14 @@
 [
   {
+    "title": "Learn Reactjs #15 - Default Values For Props",
+    "channel": "Elzero Web School",
+    "excerpt": "Default Values For Props\n\nLessons & Assignments: https://elzero.org/courses/reactjs\n\nText Course: https://elzero.org/text-courses/reactjs",
+    "date": "2026-11-20T12:00:31Z",
+    "link": "https://www.youtube.com/watch?v=AmP65h3quI4",
+    "thumbnail": "https://i.ytimg.com/vi/AmP65h3quI4/mqdefault.jpg",
+    "platform": "YouTube"
+  },
+  {
     "title": "Learn Reactjs #14 - Destructuring Object Props",
     "channel": "Elzero Web School",
     "excerpt": "Destructuring Object Props\n\nLessons & Assignments: https://elzero.org/courses/reactjs\n\nText Course: https://elzero.org/text-courses/reactjs",
@@ -438,15 +447,6 @@
     "date": "2026-11-10T16:18:24Z",
     "link": "https://www.youtube.com/watch?v=JlzV4N7o3ZQ",
     "thumbnail": "https://i.ytimg.com/vi/JlzV4N7o3ZQ/mqdefault.jpg",
-    "platform": "YouTube"
-  },
-  {
-    "title": "حلول التعفن الدماغي",
-    "channel": "Ali Muhammad Ali",
-    "excerpt": "..\nاشترك في أكاديمية الإنجاز\nhttps://ingaz.academy/\nمنصة تقدم كل كورساتي باشتراك واحد فقط\n\n00:00 مقدمة \n01:14 توصيف سريع للمشكلة\n02:26 خطورة التعايش م",
-    "date": "2026-11-10T15:50:16Z",
-    "link": "https://www.youtube.com/watch?v=Rz5tnz67KEo",
-    "thumbnail": "https://i.ytimg.com/vi/Rz5tnz67KEo/mqdefault.jpg",
     "platform": "YouTube"
   }
 ]
