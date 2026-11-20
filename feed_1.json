@@ -1,5 +1,32 @@
 [
   {
+    "title": "Learn Reactjs #17 - Passing Objects Training",
+    "channel": "Elzero Web School",
+    "excerpt": "Passing Objects Training\n\nLessons & Assignments: https://elzero.org/courses/reactjs\n\nText Course: https://elzero.org/text-courses/reactjs",
+    "date": "2026-11-20T21:00:32Z",
+    "link": "https://www.youtube.com/watch?v=d_hP8pqUCr0",
+    "thumbnail": "https://i.ytimg.com/vi/d_hP8pqUCr0/mqdefault.jpg",
+    "platform": "YouTube"
+  },
+  {
+    "title": "ليه بتبدأ تتعلم إنجليزي بحماس وبعد أسبوعين بتوقف؟ ( الحلول العمليه )",
+    "channel": "Omar Abdelrahim",
+    "excerpt": "تعمل تحديد مستوى فين؟\n1 - بريتش كونسل \nhttps://learnenglish.britishcouncil.org/english-levels/online-english-level-test \n 2- كامبريدج \nhttps://www.cam",
+    "date": "2026-11-20T17:18:38Z",
+    "link": "https://www.youtube.com/watch?v=Qeiu5HCIHak",
+    "thumbnail": "https://i.ytimg.com/vi/Qeiu5HCIHak/mqdefault.jpg",
+    "platform": "YouTube"
+  },
+  {
+    "title": "Learn Reactjs #16 - Passing Objects As Props",
+    "channel": "Elzero Web School",
+    "excerpt": "Passing Objects As Props\n\nLessons & Assignments: https://elzero.org/courses/reactjs\n\nText Course: https://elzero.org/text-courses/reactjs",
+    "date": "2026-11-20T17:00:11Z",
+    "link": "https://www.youtube.com/watch?v=mPsKlTicXF4",
+    "thumbnail": "https://i.ytimg.com/vi/mPsKlTicXF4/mqdefault.jpg",
+    "platform": "YouTube"
+  },
+  {
     "title": "Learn Reactjs #15 - Default Values For Props",
     "channel": "Elzero Web School",
     "excerpt": "Default Values For Props\n\nLessons & Assignments: https://elzero.org/courses/reactjs\n\nText Course: https://elzero.org/text-courses/reactjs",
@@ -420,33 +447,6 @@
     "date": "2026-11-11T12:09:39Z",
     "link": "https://www.youtube.com/watch?v=uprMFMqeAQ8",
     "thumbnail": "https://i.ytimg.com/vi/uprMFMqeAQ8/mqdefault.jpg",
-    "platform": "YouTube"
-  },
-  {
-    "title": "لو عرفتُ هذه الحقيقة مبكراً، لتغيّرت حياتي إلى الأبد | قصة مؤثرة عن قيمة الوقت",
-    "channel": "WAKE UP",
-    "excerpt": "الوقت هو الشيء الوحيد الذي لا يمكنك شراؤه أو استعادته إذا مضى. كل ثانية تمر هي فرصة لا تتكرر، والناجحون يدركون أن استثمار اللحظة الحالية هو الفارق الح",
-    "date": "2026-11-10T18:12:04Z",
-    "link": "https://www.youtube.com/watch?v=AEn-P_EC6ps",
-    "thumbnail": "https://i.ytimg.com/vi/AEn-P_EC6ps/mqdefault.jpg",
-    "platform": "YouTube"
-  },
-  {
-    "title": "استغل الفترة دي أسوأ استغلال😁",
-    "channel": "Shorts - Clips دروس أونلاين",
-    "excerpt": "",
-    "date": "2026-11-10T18:00:09Z",
-    "link": "https://www.youtube.com/watch?v=35ukEoLAArY",
-    "thumbnail": "https://i.ytimg.com/vi/35ukEoLAArY/mqdefault.jpg",
-    "platform": "YouTube"
-  },
-  {
-    "title": "ازاي رسايل واتساب بتتنقل من موبايلك لموبايل صاحبك؟",
-    "channel": "غريب الشيخ || Ghareeb Elshaikh",
-    "excerpt": "",
-    "date": "2026-11-10T16:18:24Z",
-    "link": "https://www.youtube.com/watch?v=JlzV4N7o3ZQ",
-    "thumbnail": "https://i.ytimg.com/vi/JlzV4N7o3ZQ/mqdefault.jpg",
     "platform": "YouTube"
   }
 ]
