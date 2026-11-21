@@ -1,5 +1,23 @@
 [
   {
+    "title": "Learn Reactjs #18 - Spreading Props",
+    "channel": "Elzero Web School",
+    "excerpt": "Spreading Props\n\nLessons & Assignments: https://elzero.org/courses/reactjs\n\nText Course: https://elzero.org/text-courses/reactjs",
+    "date": "2026-11-21T12:00:21Z",
+    "link": "https://www.youtube.com/watch?v=G2AGx8zzX88",
+    "thumbnail": "https://i.ytimg.com/vi/G2AGx8zzX88/mqdefault.jpg",
+    "platform": "YouTube"
+  },
+  {
+    "title": "قفلت على نفسي أوضة وبنيت شركة بموظفين الذكاء الاصطناعي",
+    "channel": "Bahaa Henish",
+    "excerpt": "بنيت مكتب كامل لموظفين ذكاء اصطناعي (AI Agents) بـ Claude: HR بيعيّن الفريق، Trainer بيدربهم كل يوم، ومحاسب AI خلّص حسابات سنة كاملة في 3 ساعات بدل 3 ",
+    "date": "2026-11-21T11:13:04Z",
+    "link": "https://www.youtube.com/watch?v=X_vrw6JwrEQ",
+    "thumbnail": "https://i.ytimg.com/vi/X_vrw6JwrEQ/mqdefault.jpg",
+    "platform": "YouTube"
+  },
+  {
     "title": "Learn Reactjs #17 - Passing Objects Training",
     "channel": "Elzero Web School",
     "excerpt": "Passing Objects Training\n\nLessons & Assignments: https://elzero.org/courses/reactjs\n\nText Course: https://elzero.org/text-courses/reactjs",
@@ -429,24 +447,6 @@
     "date": "2026-11-12T11:26:38Z",
     "link": "https://www.youtube.com/watch?v=Ww3eIzzGibA",
     "thumbnail": "https://i.ytimg.com/vi/Ww3eIzzGibA/mqdefault.jpg",
-    "platform": "YouTube"
-  },
-  {
-    "title": "إوعى تشتغل من البيت!!",
-    "channel": "Shorts - Clips دروس أونلاين",
-    "excerpt": "",
-    "date": "2026-11-11T18:14:37Z",
-    "link": "https://www.youtube.com/watch?v=5w2h4qV8Gxs",
-    "thumbnail": "https://i.ytimg.com/vi/5w2h4qV8Gxs/mqdefault.jpg",
-    "platform": "YouTube"
-  },
-  {
-    "title": "كيف يعرف جوالك جو الأسبوع الجاي؟ | قهوة المغرب",
-    "channel": "Mics مايكس",
-    "excerpt": "خلف كل «إشعار مطر» يوصلك بجوالك، تاريخ طويل من الحضارات وتطور تقني غيّر مجرى العالم.☔📱",
-    "date": "2026-11-11T12:09:39Z",
-    "link": "https://www.youtube.com/watch?v=uprMFMqeAQ8",
-    "thumbnail": "https://i.ytimg.com/vi/uprMFMqeAQ8/mqdefault.jpg",
     "platform": "YouTube"
   }
 ]
