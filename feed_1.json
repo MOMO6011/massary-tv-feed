@@ -1,5 +1,14 @@
 [
   {
+    "title": "Learn Reactjs #22 - Refining Course Cards",
+    "channel": "Elzero Web School",
+    "excerpt": "Refining Course Cards\n\nLessons & Assignments: https://elzero.org/courses/reactjs\n\nText Course: https://elzero.org/text-courses/reactjs",
+    "date": "2026-11-22T19:35:24Z",
+    "link": "https://www.youtube.com/watch?v=7AiSw-hx9ZQ",
+    "thumbnail": "https://i.ytimg.com/vi/7AiSw-hx9ZQ/mqdefault.jpg",
+    "platform": "YouTube"
+  },
+  {
     "title": "Learn Reactjs #21 - Show and Hide Content",
     "channel": "Elzero Web School",
     "excerpt": "Show and Hide Content\n\nLessons & Assignments: https://elzero.org/courses/reactjs\n\nText Course: https://elzero.org/text-courses/reactjs",
@@ -438,15 +447,6 @@
     "date": "2026-11-15T13:16:40Z",
     "link": "https://www.youtube.com/watch?v=uQtWQdpBDdk",
     "thumbnail": "https://i.ytimg.com/vi/uQtWQdpBDdk/mqdefault.jpg",
-    "platform": "YouTube"
-  },
-  {
-    "title": "راجعين لكم",
-    "channel": "Mics مايكس",
-    "excerpt": "بمحتوى اقتصادي ممتع في بودكاست لو حسبناها",
-    "date": "2026-11-15T08:24:05Z",
-    "link": "https://www.youtube.com/watch?v=qlGCk9IKVtg",
-    "thumbnail": "https://i.ytimg.com/vi/qlGCk9IKVtg/mqdefault.jpg",
     "platform": "YouTube"
   }
 ]
