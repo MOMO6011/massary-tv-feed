@@ -1,5 +1,41 @@
 [
   {
+    "title": "Learn Reactjs #26 - Filtering Courses",
+    "channel": "Elzero Web School",
+    "excerpt": "Filtering Courses\n\nLessons & Assignments: https://elzero.org/courses/reactjs\n\nText Course: https://elzero.org/text-courses/reactjs",
+    "date": "2026-11-24T16:55:07Z",
+    "link": "https://www.youtube.com/watch?v=f6juP1NV23I",
+    "thumbnail": "https://i.ytimg.com/vi/f6juP1NV23I/mqdefault.jpg",
+    "platform": "YouTube"
+  },
+  {
+    "title": "ما وراء كواليس لعبة GTA",
+    "channel": "محمد غنايم",
+    "excerpt": "يسعدنا انضمامك، أيها المؤثر القادم بإذن الله\nابدأ رحلتك في صناعة المحتوى التوعوي\n\nhttps://forms.gle/eqyQFvMXudc5Dwr97\nhttps://forms.gle/eqyQFvMXudc5Dw",
+    "date": "2026-11-24T16:08:34Z",
+    "link": "https://www.youtube.com/watch?v=5_WJb4b3vcw",
+    "thumbnail": "https://i.ytimg.com/vi/5_WJb4b3vcw/mqdefault.jpg",
+    "platform": "YouTube"
+  },
+  {
+    "title": "التقنية تهدّد وظائفنا؟",
+    "channel": "Mics مايكس",
+    "excerpt": "سؤال واحد من مسؤول حكومي كان كافيًا لإيقاف مشروع تقني بالكامل! \n \nم. عبدالله الحربي، نائب الرئيس التنفيذي للهيئة السعودية للبحر للأحمر\nفي أحدث حلقات ب",
+    "date": "2026-11-24T13:48:12Z",
+    "link": "https://www.youtube.com/watch?v=g7hEf68F8zU",
+    "thumbnail": "https://i.ytimg.com/vi/g7hEf68F8zU/mqdefault.jpg",
+    "platform": "YouTube"
+  },
+  {
+    "title": "Learn Reactjs #25 - Understanding List Keys",
+    "channel": "Elzero Web School",
+    "excerpt": "Understanding List Keys\n\nLessons & Assignments: https://elzero.org/courses/reactjs\n\nText Course: https://elzero.org/text-courses/reactjs",
+    "date": "2026-11-24T12:02:14Z",
+    "link": "https://www.youtube.com/watch?v=gSRMzXQBqvI",
+    "thumbnail": "https://i.ytimg.com/vi/gSRMzXQBqvI/mqdefault.jpg",
+    "platform": "YouTube"
+  },
+  {
     "title": "هذا هوا أسوأ شيء تسويه بنفسك",
     "channel": "EB85",
     "excerpt": "فيه أشياء كثيرة في حياتك قاعدة تدمرك، مو لأنها سيئة بس لأنك رافض تتقبل أنها صارت . تضيع ساعات تفكر في قرار اخذته قبل سنوات، أو موقف ما قدرت تغيره أو ف",
@@ -411,42 +447,6 @@
     "date": "2026-11-16T16:13:41Z",
     "link": "https://www.youtube.com/watch?v=7eTSfZUtbIg",
     "thumbnail": "https://i.ytimg.com/vi/7eTSfZUtbIg/mqdefault.jpg",
-    "platform": "YouTube"
-  },
-  {
-    "title": "كيف تتشكّل السياحة في البحر الأحمر؟ | م. عبدالله الحربي في بودكاست مسيان",
-    "channel": "Mics مايكس",
-    "excerpt": "بين تأثير والده أحمد عيد في مسيرته، وحلم الطب الذي لم يكتمل، وعمل مختلف على شواطئ البحر الأحمر، نستضيف المهندس عبدالله الحربي في هذه الحلقة من بودكاست",
-    "date": "2026-11-16T15:37:50Z",
-    "link": "https://www.youtube.com/watch?v=30h5c-ve39Q",
-    "thumbnail": "https://i.ytimg.com/vi/30h5c-ve39Q/mqdefault.jpg",
-    "platform": "YouTube"
-  },
-  {
-    "title": "10 عادات يومية ستغيّر حياتك للأفضل | ابدأ بنفسك",
-    "channel": "WAKE UP",
-    "excerpt": "ما عليك سوى الانضمام إلى عضوية هذه القناة للاستفادة من المزايا:\nهل تريد أن تتغير حياتك للأفضل، لكنك لا تعرف من أين تبدأ؟ أحياناً لا تحتاج إلى قرارات ع",
-    "date": "2026-11-16T15:17:06Z",
-    "link": "https://www.youtube.com/watch?v=K0ZpL-Lxhfg",
-    "thumbnail": "https://i.ytimg.com/vi/K0ZpL-Lxhfg/mqdefault.jpg",
-    "platform": "YouTube"
-  },
-  {
-    "title": "الغطاء المفقود | بودكاست جناية",
-    "channel": "Mics مايكس",
-    "excerpt": "عُثر على جثة رجل مجهول الهوية بالقرب من مجرى لتصريف السيول، دون أي متعلقات شخصية أو أدلة تكشف ما حدث له.\nلكن تفصيلة صغيرة في حمام منزل الضحية غيّرت مس",
-    "date": "2026-11-16T13:07:41Z",
-    "link": "https://www.youtube.com/watch?v=W8vJUXPpp9I",
-    "thumbnail": "https://i.ytimg.com/vi/W8vJUXPpp9I/mqdefault.jpg",
-    "platform": "YouTube"
-  },
-  {
-    "title": "مصالح الدول في حرب السودان",
-    "channel": "Mics مايكس",
-    "excerpt": "ليش قد يكون استمرار الحرب في السودان مصلحة لبعض الدول المجاورة؟\n  \n الإعلامي والمراسل الحربي محمد العرب\nفي أحدث حلقات بودكاست مسيّان مع عبدالعزيز الهد",
-    "date": "2026-11-15T18:00:32Z",
-    "link": "https://www.youtube.com/watch?v=d9b0X-hLDmE",
-    "thumbnail": "https://i.ytimg.com/vi/d9b0X-hLDmE/mqdefault.jpg",
     "platform": "YouTube"
   }
 ]
