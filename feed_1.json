@@ -1,5 +1,14 @@
 [
   {
+    "title": "Learn Reactjs #27 - Handling Empty Lists",
+    "channel": "Elzero Web School",
+    "excerpt": "Handling Empty Lists\n\nLessons & Assignments: https://elzero.org/courses/reactjs\n\nText Course: https://elzero.org/text-courses/reactjs",
+    "date": "2026-11-24T21:05:57Z",
+    "link": "https://www.youtube.com/watch?v=RPUt1jhXrm4",
+    "thumbnail": "https://i.ytimg.com/vi/RPUt1jhXrm4/mqdefault.jpg",
+    "platform": "YouTube"
+  },
+  {
     "title": "Learn Reactjs #26 - Filtering Courses",
     "channel": "Elzero Web School",
     "excerpt": "Filtering Courses\n\nLessons & Assignments: https://elzero.org/courses/reactjs\n\nText Course: https://elzero.org/text-courses/reactjs",
@@ -438,15 +447,6 @@
     "date": "2026-11-17T15:41:27Z",
     "link": "https://www.youtube.com/watch?v=dXrQVWTIxOE",
     "thumbnail": "https://i.ytimg.com/vi/dXrQVWTIxOE/mqdefault.jpg",
-    "platform": "YouTube"
-  },
-  {
-    "title": "متستخدمش fable 5.2 عمال على بطال، كل نموذج له دوره",
-    "channel": "غريب الشيخ || Ghareeb Elshaikh",
-    "excerpt": "",
-    "date": "2026-11-16T16:13:41Z",
-    "link": "https://www.youtube.com/watch?v=7eTSfZUtbIg",
-    "thumbnail": "https://i.ytimg.com/vi/7eTSfZUtbIg/mqdefault.jpg",
     "platform": "YouTube"
   }
 ]
