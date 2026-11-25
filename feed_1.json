@@ -1,5 +1,68 @@
 [
   {
+    "title": "Learn Reactjs #30 - Passing Arguments To Event Handlers",
+    "channel": "Elzero Web School",
+    "excerpt": "Passing Arguments To Event Handlers\n\nLessons & Assignments: https://elzero.org/courses/reactjs\n\nText Course: https://elzero.org/text-courses/reactjs",
+    "date": "2026-11-25T19:47:17Z",
+    "link": "https://www.youtube.com/watch?v=ehRNEYZSbdk",
+    "thumbnail": "https://i.ytimg.com/vi/ehRNEYZSbdk/mqdefault.jpg",
+    "platform": "YouTube"
+  },
+  {
+    "title": "فن التسامح مع النفس والتوقف عن جلد الذات بسبب أخطاء الماضي",
+    "channel": "WAKE UP",
+    "excerpt": "ما عليك سوى الانضمام إلى عضوية هذه القناة للاستفادة من المزايا:\nhttps://www.youtube.com/channel/UC19LSQvi6ca8luKEWL0pdKw/join",
+    "date": "2026-11-25T18:13:43Z",
+    "link": "https://www.youtube.com/watch?v=Ac93N1_CwTs",
+    "thumbnail": "https://i.ytimg.com/vi/Ac93N1_CwTs/mqdefault.jpg",
+    "platform": "YouTube"
+  },
+  {
+    "title": "Learn Reactjs #29 - Events Introduction",
+    "channel": "Elzero Web School",
+    "excerpt": "Events Introduction\n\nLessons & Assignments: https://elzero.org/courses/reactjs\n\nText Course: https://elzero.org/text-courses/reactjs",
+    "date": "2026-11-25T17:47:12Z",
+    "link": "https://www.youtube.com/watch?v=AZDtlbnkbFI",
+    "thumbnail": "https://i.ytimg.com/vi/AZDtlbnkbFI/mqdefault.jpg",
+    "platform": "YouTube"
+  },
+  {
+    "title": "كنوز البحر الأحمر المجهولة!ا؟",
+    "channel": "Mics مايكس",
+    "excerpt": "البحر الأحمر من أجمل وجهات الغوص في العالم، لكن كثير من كنوزه ما زالت مجهولة!\n \nم. عبدالله الحربي، نائب الرئيس التنفيذي للهيئة السعودية للبحر للأحمر\nف",
+    "date": "2026-11-25T17:00:16Z",
+    "link": "https://www.youtube.com/watch?v=xI_A1soCPB8",
+    "thumbnail": "https://i.ytimg.com/vi/xI_A1soCPB8/mqdefault.jpg",
+    "platform": "YouTube"
+  },
+  {
+    "title": "نحتاج 20 سنة لإصلاح التعليم!",
+    "channel": "Mics مايكس",
+    "excerpt": "ليش إصلاح التعليم يحتاج عشرين سنة قادمة؟\n\nعثمان القصبي عضو مجلس إدارة شركة عطاء التعليمية\nفي أحدث حلقات بودكاست الغرفة",
+    "date": "2026-11-25T14:00:17Z",
+    "link": "https://www.youtube.com/watch?v=0Rxj7HyZBKU",
+    "thumbnail": "https://i.ytimg.com/vi/0Rxj7HyZBKU/mqdefault.jpg",
+    "platform": "YouTube"
+  },
+  {
+    "title": "Learn Reactjs #28 - Create Stats Component",
+    "channel": "Elzero Web School",
+    "excerpt": "Create Stats Component\n\nLessons & Assignments: https://elzero.org/courses/reactjs\n\nText Course: https://elzero.org/text-courses/reactjs",
+    "date": "2026-11-25T13:20:25Z",
+    "link": "https://www.youtube.com/watch?v=pjVTmmIpb_I",
+    "thumbnail": "https://i.ytimg.com/vi/pjVTmmIpb_I/mqdefault.jpg",
+    "platform": "YouTube"
+  },
+  {
+    "title": "ليش ما يترك اليمنيون مناطق الحوثي؟",
+    "channel": "Mics مايكس",
+    "excerpt": "رواتب منتظمة أكثر وخدمات أفضل في مناطق الحكومة، لكن ليش ما ينتقل لها بقية اليمنيين؟\n  \n د. فارس البيل، رئيس مركز المستقبل اليمني للدراسات الاستراتيجية",
+    "date": "2026-11-25T12:00:13Z",
+    "link": "https://www.youtube.com/watch?v=LdPexWSkSq0",
+    "thumbnail": "https://i.ytimg.com/vi/LdPexWSkSq0/mqdefault.jpg",
+    "platform": "YouTube"
+  },
+  {
     "title": "«المستثمرين في القطاع كانوا يضحكون علي»",
     "channel": "Mics مايكس",
     "excerpt": "من مدرسة تضم آلاف طلاب إلى أكبر شركة تعليمية في المملكة!\n\nعثمان القصبي عضو مجلس إدارة عطاء التعليمية يتحدّث عن استراتيجية التوسع التي حقَّقت هذه النقل",
@@ -384,69 +447,6 @@
     "date": "2026-11-18T13:32:53Z",
     "link": "https://www.youtube.com/watch?v=TkHZfhL3AsA",
     "thumbnail": "https://i.ytimg.com/vi/TkHZfhL3AsA/mqdefault.jpg",
-    "platform": "YouTube"
-  },
-  {
-    "title": "Learn Reactjs #06 - Understanding The Project Structure",
-    "channel": "Elzero Web School",
-    "excerpt": "Understanding The Project Structure\n\nLessons & Assignments: https://elzero.org/courses/reactjs\n\nText Course: https://elzero.org/text-courses/reactjs",
-    "date": "2026-11-18T12:00:36Z",
-    "link": "https://www.youtube.com/watch?v=z-uPdD3w5h8",
-    "thumbnail": "https://i.ytimg.com/vi/z-uPdD3w5h8/mqdefault.jpg",
-    "platform": "YouTube"
-  },
-  {
-    "title": "Learn Reactjs #05 - Understanding And Managing Packages",
-    "channel": "Elzero Web School",
-    "excerpt": "Understanding And Managing Packages\n\nLessons & Assignments: https://elzero.org/courses/reactjs\n\nText Course: https://elzero.org/text-courses/reactjs",
-    "date": "2026-11-17T21:45:04Z",
-    "link": "https://www.youtube.com/watch?v=oLkthLKyjIs",
-    "thumbnail": "https://i.ytimg.com/vi/oLkthLKyjIs/mqdefault.jpg",
-    "platform": "YouTube"
-  },
-  {
-    "title": "Learn Reactjs #04 - Creating Your First React App",
-    "channel": "Elzero Web School",
-    "excerpt": "Creating Your First React App\n\nLessons & Assignments: https://elzero.org/courses/reactjs\n\nText Course: https://elzero.org/text-courses/reactjs",
-    "date": "2026-11-17T20:30:24Z",
-    "link": "https://www.youtube.com/watch?v=FaSRY19XOBY",
-    "thumbnail": "https://i.ytimg.com/vi/FaSRY19XOBY/mqdefault.jpg",
-    "platform": "YouTube"
-  },
-  {
-    "title": "Learn Reactjs #03 - Setting Up The Development Environment",
-    "channel": "Elzero Web School",
-    "excerpt": "Setting Up The Development Environment\n\nLessons & Assignments: https://elzero.org/courses/reactjs\n\nText Course: https://elzero.org/text-courses/reactj",
-    "date": "2026-11-17T19:30:08Z",
-    "link": "https://www.youtube.com/watch?v=EWfxlhtcqTE",
-    "thumbnail": "https://i.ytimg.com/vi/EWfxlhtcqTE/mqdefault.jpg",
-    "platform": "YouTube"
-  },
-  {
-    "title": "مهارة واحدة لازم تتعلمها في حياتك كلها",
-    "channel": "Shorts - Clips دروس أونلاين",
-    "excerpt": "",
-    "date": "2026-11-17T18:25:33Z",
-    "link": "https://www.youtube.com/watch?v=KWKw2-qbHmg",
-    "thumbnail": "https://i.ytimg.com/vi/KWKw2-qbHmg/mqdefault.jpg",
-    "platform": "YouTube"
-  },
-  {
-    "title": "Learn Reactjs #02 - What You Need to Know Before You Start",
-    "channel": "Elzero Web School",
-    "excerpt": "What You Need to Know Before You Start\n\nLessons & Assignments: https://elzero.org/courses/reactjs\n\nText Course: https://elzero.org/text-courses/reactj",
-    "date": "2026-11-17T17:07:39Z",
-    "link": "https://www.youtube.com/watch?v=vXL-E4JLPj8",
-    "thumbnail": "https://i.ytimg.com/vi/vXL-E4JLPj8/mqdefault.jpg",
-    "platform": "YouTube"
-  },
-  {
-    "title": "متى تضطر إيران لوقف الحرب؟ | بودكاست مِنصاف",
-    "channel": "Mics مايكس",
-    "excerpt": "ما الذي يدفع إيران للتراجع عن مواقف تمسكت بها لسنوات؟\nفي هذه الحلقة من بودكاست مِنصاف، يأخذنا عبدالعزيز الخمعلي إلى الحرب العراقية الإيرانية، لنعرف كي",
-    "date": "2026-11-17T16:21:55Z",
-    "link": "https://www.youtube.com/watch?v=hq1q9zXkQAs",
-    "thumbnail": "https://i.ytimg.com/vi/hq1q9zXkQAs/mqdefault.jpg",
     "platform": "YouTube"
   }
 ]
