@@ -1,5 +1,41 @@
 [
   {
+    "title": "Learn Reactjs #34 - Create A Counter With useState Hook",
+    "channel": "Elzero Web School",
+    "excerpt": "Create A Counter With useState Hook\n\nLessons & Assignments: https://elzero.org/courses/reactjs\n\nText Course: https://elzero.org/text-courses/reactjs",
+    "date": "2026-11-26T20:48:27Z",
+    "link": "https://www.youtube.com/watch?v=TtC0m3eL7GY",
+    "thumbnail": "https://i.ytimg.com/vi/TtC0m3eL7GY/mqdefault.jpg",
+    "platform": "YouTube"
+  },
+  {
+    "title": "Learn Reactjs #33 - What Is State ?",
+    "channel": "Elzero Web School",
+    "excerpt": "What Is State\n\nLessons & Assignments: https://elzero.org/courses/reactjs\n\nText Course: https://elzero.org/text-courses/reactjs",
+    "date": "2026-11-26T18:58:38Z",
+    "link": "https://www.youtube.com/watch?v=ywmqJ5QZ5N4",
+    "thumbnail": "https://i.ytimg.com/vi/ywmqJ5QZ5N4/mqdefault.jpg",
+    "platform": "YouTube"
+  },
+  {
+    "title": "Learn Reactjs #32 - Event Propagation",
+    "channel": "Elzero Web School",
+    "excerpt": "Event Propagation\n\nLessons & Assignments: https://elzero.org/courses/reactjs\n\nText Course: https://elzero.org/text-courses/reactjs",
+    "date": "2026-11-26T15:27:23Z",
+    "link": "https://www.youtube.com/watch?v=DLN7diHRud0",
+    "thumbnail": "https://i.ytimg.com/vi/DLN7diHRud0/mqdefault.jpg",
+    "platform": "YouTube"
+  },
+  {
+    "title": "Learn Reactjs #31 - Understanding The Event Object",
+    "channel": "Elzero Web School",
+    "excerpt": "Understanding The Event Object\n\nLessons & Assignments: https://elzero.org/courses/reactjs\n\nText Course: https://elzero.org/text-courses/reactjs",
+    "date": "2026-11-26T15:10:45Z",
+    "link": "https://www.youtube.com/watch?v=EFwc9fDexLw",
+    "thumbnail": "https://i.ytimg.com/vi/EFwc9fDexLw/mqdefault.jpg",
+    "platform": "YouTube"
+  },
+  {
     "title": "إلى أي حد يمكن أن يصل حب المرء لخروفه؟ يجيب عزوز: «قد لبّستها سلسال ذهب!» من أفلام سلسلة #فلان.",
     "channel": "ثمانية",
     "excerpt": "هذا الفلم من إنتاج شركة «ثمانية» للنشر والتوزيع، كل إنتاجنا يُصنع بحب من مدينة الرياض.\n\nنرحب بسماع قصص الوطن العربي. أي قصة قد تكون سمعتها أو شاهدتها ",
@@ -411,42 +447,6 @@
     "date": "2026-11-18T19:00:29Z",
     "link": "https://www.youtube.com/watch?v=QOOE1syC-7s",
     "thumbnail": "https://i.ytimg.com/vi/QOOE1syC-7s/mqdefault.jpg",
-    "platform": "YouTube"
-  },
-  {
-    "title": "العودة لمعيار الذهب | بودكاست لو حسبناها",
-    "channel": "Mics مايكس",
-    "excerpt": "مع تغيّر أسعار الذهب وزيادة الإقبال عليه، يبرز سؤال: ليش نثق بالذهب أكثر من غيره، وكيف صار له كل هذا التأثير في اقتصاد العالم؟\n\nفي الحلقة الأولى من بو",
-    "date": "2026-11-18T18:07:09Z",
-    "link": "https://www.youtube.com/watch?v=HPp7TMRmSBc",
-    "thumbnail": "https://i.ytimg.com/vi/HPp7TMRmSBc/mqdefault.jpg",
-    "platform": "YouTube"
-  },
-  {
-    "title": "بودكاست | كيف تستعيد هدوءك الداخلي وتوقف التفكير الزائد؟ 🕊️",
-    "channel": "WAKE UP",
-    "excerpt": "ما عليك سوى الانضمام إلى عضوية هذه القناة للاستفادة من المزايا:\nhttps://www.youtube.com/channel/UC19LSQvi6ca8luKEWL0pdKw/join",
-    "date": "2026-11-18T17:51:03Z",
-    "link": "https://www.youtube.com/watch?v=UiuEiDCiKrY",
-    "thumbnail": "https://i.ytimg.com/vi/UiuEiDCiKrY/mqdefault.jpg",
-    "platform": "YouTube"
-  },
-  {
-    "title": "Learn Reactjs #08 - JavaScript Inside JSX",
-    "channel": "Elzero Web School",
-    "excerpt": "JavaScript Inside JSX\n\nLessons & Assignments: https://elzero.org/courses/reactjs\n\nText Course: https://elzero.org/text-courses/reactjs",
-    "date": "2026-11-18T17:00:37Z",
-    "link": "https://www.youtube.com/watch?v=X-uW8sMnBO8",
-    "thumbnail": "https://i.ytimg.com/vi/X-uW8sMnBO8/mqdefault.jpg",
-    "platform": "YouTube"
-  },
-  {
-    "title": "Learn Reactjs #07 - Introduction To JSX",
-    "channel": "Elzero Web School",
-    "excerpt": "Introduction To JSX\n\nLessons & Assignments: https://elzero.org/courses/reactjs\n\nText Course: https://elzero.org/text-courses/reactjs",
-    "date": "2026-11-18T14:13:30Z",
-    "link": "https://www.youtube.com/watch?v=97NdOeGCpfQ",
-    "thumbnail": "https://i.ytimg.com/vi/97NdOeGCpfQ/mqdefault.jpg",
     "platform": "YouTube"
   }
 ]
