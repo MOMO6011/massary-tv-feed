@@ -1,5 +1,41 @@
 [
   {
+    "title": "Learn Reactjs #35 - Use State To Show And Hide Counter",
+    "channel": "Elzero Web School",
+    "excerpt": "Use State To Show And Hide Counter\n\nLessons & Assignments: https://elzero.org/courses/reactjs\n\nText Course: https://elzero.org/text-courses/reactjs",
+    "date": "2026-11-27T17:34:08Z",
+    "link": "https://www.youtube.com/watch?v=Iaip7xVczWY",
+    "thumbnail": "https://i.ytimg.com/vi/Iaip7xVczWY/mqdefault.jpg",
+    "platform": "YouTube"
+  },
+  {
+    "title": "AI Ad Maker: أدوات ذكاء اصطناعي هتغير شكل إعلاناتك | Dreamina × CapCut PC",
+    "channel": "Walid Taha",
+    "excerpt": "اشترك من اللينكات دي وخد ٧ أيام مجانا مع اشتراكك\nCapCut Pro على الكمبيوتر: https://www.capcut.com/tv2/ZSsrWYGkh/\n\nDreamina:\nhttps://dreamina.capcut.co",
+    "date": "2026-11-27T15:46:52Z",
+    "link": "https://www.youtube.com/watch?v=cpui1_-TnKU",
+    "thumbnail": "https://i.ytimg.com/vi/cpui1_-TnKU/mqdefault.jpg",
+    "platform": "YouTube"
+  },
+  {
+    "title": "تحدي ديسمبر | 31 يوماً لتغيير مسار حياتك",
+    "channel": "WAKE UP",
+    "excerpt": "ما عليك سوى الانضمام إلى عضوية هذه القناة للاستفادة من المزايا:\nhttps://www.youtube.com/channel/UC19LSQvi6ca8luKEWL0pdKw/join",
+    "date": "2026-11-27T15:36:24Z",
+    "link": "https://www.youtube.com/watch?v=bpl-F5EMNd0",
+    "thumbnail": "https://i.ytimg.com/vi/bpl-F5EMNd0/mqdefault.jpg",
+    "platform": "YouTube"
+  },
+  {
+    "title": "كل الي تحتاجه",
+    "channel": "EB85",
+    "excerpt": "اضغط وصير عضو في القناة ا:\nhttps://www.youtube.com/channel/UCVO0eI6y9QE0IHnpR2rxy5Q/join\n\nhttps://drive.google.com/file/d/1zliZOEudREP0S5YQ_st1nUeFxGF",
+    "date": "2026-11-27T14:47:26Z",
+    "link": "https://www.youtube.com/watch?v=qF5QuOUAfos",
+    "thumbnail": "https://i.ytimg.com/vi/qF5QuOUAfos/mqdefault.jpg",
+    "platform": "YouTube"
+  },
+  {
     "title": "Learn Reactjs #34 - Create A Counter With useState Hook",
     "channel": "Elzero Web School",
     "excerpt": "Create A Counter With useState Hook\n\nLessons & Assignments: https://elzero.org/courses/reactjs\n\nText Course: https://elzero.org/text-courses/reactjs",
@@ -411,42 +447,6 @@
     "date": "2026-11-19T12:47:28Z",
     "link": "https://www.youtube.com/watch?v=zT243wKL0Yo",
     "thumbnail": "https://i.ytimg.com/vi/zT243wKL0Yo/mqdefault.jpg",
-    "platform": "YouTube"
-  },
-  {
-    "title": "Learn Reactjs #11 - Props Basics",
-    "channel": "Elzero Web School",
-    "excerpt": "Props Basics\n\nLessons & Assignments: https://elzero.org/courses/reactjs\n\nText Course: https://elzero.org/text-courses/reactjs",
-    "date": "2026-11-19T10:56:57Z",
-    "link": "https://www.youtube.com/watch?v=GUx89takPiA",
-    "thumbnail": "https://i.ytimg.com/vi/GUx89takPiA/mqdefault.jpg",
-    "platform": "YouTube"
-  },
-  {
-    "title": "فخ الاستفزاز | بودكاست مهارات",
-    "channel": "Mics مايكس",
-    "excerpt": "في هذه الحلقة من «مهارات» نفكّك مع د. ماجد بن جعفر الغامدي فخ الاستفزاز ؛ كيف يمكن لسؤال واحد أن يضع القائد في موقف دفاعي، وكيف يستطيع قلب الموقف لصال",
-    "date": "2026-11-19T10:23:47Z",
-    "link": "https://www.youtube.com/watch?v=4_l3v3hu6pc",
-    "thumbnail": "https://i.ytimg.com/vi/4_l3v3hu6pc/mqdefault.jpg",
-    "platform": "YouTube"
-  },
-  {
-    "title": "Learn Reactjs #10 - Separating Components into Files",
-    "channel": "Elzero Web School",
-    "excerpt": "Separating Components into Files\n\nLessons & Assignments: https://elzero.org/courses/reactjs\n\nText Course: https://elzero.org/text-courses/reactjs",
-    "date": "2026-11-18T21:00:10Z",
-    "link": "https://www.youtube.com/watch?v=KMBdcSgQ9og",
-    "thumbnail": "https://i.ytimg.com/vi/KMBdcSgQ9og/mqdefault.jpg",
-    "platform": "YouTube"
-  },
-  {
-    "title": "Learn Reactjs #09 - Start Using Components",
-    "channel": "Elzero Web School",
-    "excerpt": "Start Using Components\n\nLessons & Assignments: https://elzero.org/courses/reactjs\n\nText Course: https://elzero.org/text-courses/reactjs",
-    "date": "2026-11-18T19:00:29Z",
-    "link": "https://www.youtube.com/watch?v=QOOE1syC-7s",
-    "thumbnail": "https://i.ytimg.com/vi/QOOE1syC-7s/mqdefault.jpg",
     "platform": "YouTube"
   }
 ]
