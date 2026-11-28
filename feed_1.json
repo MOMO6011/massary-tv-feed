@@ -1,5 +1,23 @@
 [
   {
+    "title": "Learn Reactjs #36 - Toggle Course Description With State",
+    "channel": "Elzero Web School",
+    "excerpt": "Toggle Course Description With State\n\nLessons & Assignments: https://elzero.org/courses/reactjs\n\nText Course: https://elzero.org/text-courses/reactjs",
+    "date": "2026-11-27T21:25:29Z",
+    "link": "https://www.youtube.com/watch?v=3tZ0L758Fl8",
+    "thumbnail": "https://i.ytimg.com/vi/3tZ0L758Fl8/mqdefault.jpg",
+    "platform": "YouTube"
+  },
+  {
+    "title": "أحسن طريقة تتعلم بيها أي حاجة (اتعلم بذكاء)",
+    "channel": "Omar Abdelrahim",
+    "excerpt": "لتفاصيل كورس المحادثة مع gateway:\nhttps://www.facebook.com/gateway.english.community\n\nقناة التيليجرام:\nhttps://t.me/omarabdelrahimofficial\n\nلتفاصيل كو",
+    "date": "2026-11-27T20:08:53Z",
+    "link": "https://www.youtube.com/watch?v=TjF7TDZRoS8",
+    "thumbnail": "https://i.ytimg.com/vi/TjF7TDZRoS8/mqdefault.jpg",
+    "platform": "YouTube"
+  },
+  {
     "title": "Learn Reactjs #35 - Use State To Show And Hide Counter",
     "channel": "Elzero Web School",
     "excerpt": "Use State To Show And Hide Counter\n\nLessons & Assignments: https://elzero.org/courses/reactjs\n\nText Course: https://elzero.org/text-courses/reactjs",
@@ -429,24 +447,6 @@
     "date": "2026-11-19T15:00:37Z",
     "link": "https://www.youtube.com/watch?v=vc0kRl79wcM",
     "thumbnail": "https://i.ytimg.com/vi/vc0kRl79wcM/mqdefault.jpg",
-    "platform": "YouTube"
-  },
-  {
-    "title": "Learn Reactjs #12 - Build A Page And Organize Components",
-    "channel": "Elzero Web School",
-    "excerpt": "Build A Page And Organize Components\n\nLessons & Assignments: https://elzero.org/courses/reactjs\n\nText Course: https://elzero.org/text-courses/reactjs",
-    "date": "2026-11-19T14:00:27Z",
-    "link": "https://www.youtube.com/watch?v=Z7sMsqo6pjw",
-    "thumbnail": "https://i.ytimg.com/vi/Z7sMsqo6pjw/mqdefault.jpg",
-    "platform": "YouTube"
-  },
-  {
-    "title": "أزمة شواطئ جدة",
-    "channel": "Mics مايكس",
-    "excerpt": "ليش الوصول للشواطئ في مدينة جدة الساحلية صعب؟ \n\nم. عبدالله الحربي، نائب الرئيس التنفيذي للهيئة السعودية للبحر للأحمر\nفي أحدث حلقات بودكاست مسيّان مع ع",
-    "date": "2026-11-19T12:47:28Z",
-    "link": "https://www.youtube.com/watch?v=zT243wKL0Yo",
-    "thumbnail": "https://i.ytimg.com/vi/zT243wKL0Yo/mqdefault.jpg",
     "platform": "YouTube"
   }
 ]
